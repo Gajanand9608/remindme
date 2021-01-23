@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
         accentColor: Colors.teal,
       ),
       home: StreamBuilder(
-        stream: FirebaseAuth.instance.onAuthStateChanged,
+        stream: FirebaseAuth.instance.authStateChanges(),
         builder: (context, userSnapshot) {
           if (userSnapshot.hasData) {
             var arr = userSnapshot.data.toString().split(',');
