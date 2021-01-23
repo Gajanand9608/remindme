@@ -47,8 +47,8 @@ class _AuthFormState extends State<AuthForm> {
     final isValid = _formKey.currentState.validate();
     FocusScope.of(context).unfocus();
 
-     if (_userImageFile == null && !_isLogin) {
-      ScaffoldMessenger.of(context).showSnackBar(
+    if (_userImageFile == null && !_isLogin) {
+      Scaffold.of(context).showSnackBar(
         SnackBar(
           content: Text('Please pick an image.'),
           backgroundColor: Theme.of(context).errorColor,
@@ -101,7 +101,7 @@ class _AuthFormState extends State<AuthForm> {
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
-                  if(!_isLogin) UserImagePicker(_pickedImage),
+                  if (!_isLogin) UserImagePicker(_pickedImage),
                   TextFormField(
                     key: ValueKey('email'),
                     validator: (value) {
@@ -203,16 +203,23 @@ class _AuthFormState extends State<AuthForm> {
                     RaisedButton(
                       color: Colors.blue,
                       hoverColor: Colors.green,
-                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30.0)),
-                      child: Text(_isLogin ? 'Login' : 'Signup', style: TextStyle(color: Colors.white),),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(30.0)),
+                      child: Text(
+                        _isLogin ? 'Login' : 'Signup',
+                        style: TextStyle(color: Colors.white),
+                      ),
                       onPressed: _trySubmit,
                     ),
                   if (!widget.isLoading)
                     FlatButton(
                       textColor: Theme.of(context).primaryColor,
-                      child: Text(_isLogin
-                          ? 'Create new account'
-                          : 'I already have an account',style: TextStyle(color: Colors.black),),
+                      child: Text(
+                        _isLogin
+                            ? 'Create new account'
+                            : 'I already have an account',
+                        style: TextStyle(color: Colors.black),
+                      ),
                       onPressed: () {
                         setState(() {
                           _isLogin = !_isLogin;

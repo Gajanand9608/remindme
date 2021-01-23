@@ -1,9 +1,3 @@
-//import 'dart:html';
-
-//import 'dart:html';
-
-import 'dart:io';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:datetime_picker_formfield/datetime_picker_formfield.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -41,7 +35,6 @@ class _UploadState extends State<Upload> {
   // DateTime _valueSaved2 =null ;
   final detailController = TextEditingController();
   final _formKey = GlobalKey<FormState>();
-  
 
   String eventName;
   String organiser;
@@ -218,7 +211,7 @@ class _UploadState extends State<Upload> {
                                     dateMask: 'd MMM, yyyy',
                                     controller: _controller1,
                                     //initialValue: _initialValue,
-                                    firstDate: DateTime(2000),
+                                    firstDate: DateTime.now(),
                                     lastDate: DateTime(2100),
                                     icon: Icon(Icons.event),
                                     dateLabelText: 'Date',

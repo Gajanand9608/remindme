@@ -1,41 +1,41 @@
 {
   "project_info": {
-    "project_number": "589034906695",
-    "project_id": "nuget-aed9d",
-    "storage_bucket": "nuget-aed9d.appspot.com"
+    "project_number": "759739646352",
+    "project_id": "remindme-e3ba4",
+    "storage_bucket": "remindme-e3ba4.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:589034906695:android:475cdbaa037c9421693d62",
+        "mobilesdk_app_id": "1:759739646352:android:0ae6b1eb1e5a96beb97315",
         "android_client_info": {
-          "package_name": "com.IITG.Nuget"
+          "package_name": "com.company.project"
         }
       },
       "oauth_client": [
         {
-          "client_id": "589034906695-bf2deij5gprpnr80laqukokugqg3evk8.apps.googleusercontent.com",
+          "client_id": "759739646352-31c03mujlnss4dj3ou91mepbcbagor1h.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.IITG.Nuget",
-            "certificate_hash": "1bccf060783098f877556acdbcbbfdd71e6f6c46"
+            "package_name": "com.company.project",
+            "certificate_hash": "9c10d4a3ef6263bc941a45de5acb8c609f98a16b"
           }
         },
         {
-          "client_id": "589034906695-j4k4of1fgjbm2b3bnu1ce7db1qfhvs61.apps.googleusercontent.com",
+          "client_id": "759739646352-h418ir5v50rtfuohlcjfud659666eala.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyArYqYpLUFIlXn5noYRVu7YToZdlqY9erE"
+          "current_key": "AIzaSyA99_lbNTleew5s23kWfswIRhVFLgvzoJQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "589034906695-j4k4of1fgjbm2b3bnu1ce7db1qfhvs61.apps.googleusercontent.com",
+              "client_id": "759739646352-h418ir5v50rtfuohlcjfud659666eala.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

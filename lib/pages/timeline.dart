@@ -9,7 +9,7 @@ import 'package:nuget/pages/personalEventInfo.dart';
 import 'package:shifting_tabbar/shifting_tabbar.dart';
 import 'package:sleek_circular_slider/sleek_circular_slider.dart';
 import 'package:floating_action_bubble/floating_action_bubble.dart';
-import '../widgets/header.dart' as head;
+//import '../widgets/header.dart' as head;
 
 import 'dart:convert';
 import 'EventDetail.dart';
@@ -70,6 +70,14 @@ class _TimelineState extends State<Timeline> with TickerProviderStateMixin {
     final User user = auth.currentUser;
     final pid = user.uid;
     print('Hejan:$map');
+  //    void mapToList() {
+  //   map.forEach((key, value) {
+  //     if (value.toString() == 'true') {
+  //       list.add(key);
+  //     }
+  //   });
+  //   print('Hum Yaha hai: $list');
+  // }
    // mapToList();
     setState(() {
       profileId = pid;
@@ -244,7 +252,7 @@ class _TimelineState extends State<Timeline> with TickerProviderStateMixin {
                     dateMask: 'd MMM, yyyy',
                     controller: _controller1,
                     //initialValue: _initialValue,
-                    firstDate: DateTime(2000),
+                    firstDate: DateTime.now(),
                     lastDate: DateTime(2100),
                     icon: Icon(Icons.event),
                     dateLabelText: 'Date',

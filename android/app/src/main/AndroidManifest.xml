@@ -2,7 +2,7 @@
     package="com.example.nuget">
    <uses-permission android:name="android.permission.INTERNET" />
    <application
-        android:label="Nuget"
+        android:label="RemindMe"
         android:icon="@mipmap/ic_launcher">
         android:requestLegacyExternalStorage="true"
         <activity

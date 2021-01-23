@@ -28,7 +28,6 @@ class _ClubListState extends State<ClubList> {
     final FirebaseAuth auth = FirebaseAuth.instance;
     final User user = auth.currentUser;
     final uid = user.uid;
-    //fetchSubscribeList();
     setState(() {
       pid = uid;
     });
@@ -47,8 +46,15 @@ class _ClubListState extends State<ClubList> {
   ));
 
   checkSubscribe(String cardID) {
-    print('Value yaha: ${cardID}');
     if (list[cardID].toString() == 'true') {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  isListNull() {
+    if (list == null) {
       return true;
     } else {
       return false;
@@ -91,9 +97,6 @@ class _ClubListState extends State<ClubList> {
           }
 
           final documents = streamSnapshot.data.documents;
-          print(streamSnapshot.data.documents.length);
-          //print(list);
-          // checkSubscribe('fRKKGKIf8yfuZLInhqZRk8C7UyZ2');
 
           return ListView.builder(
             itemCount: documents.length,
@@ -151,9 +154,8 @@ class _ClubListState extends State<ClubList> {
                                           addSubscribe(
                                               documents[index].documentID);
                                           setState(() {
-                                            list[documents[index]
-                                                          .documentID] =
-                                                      'true' as dynamic;
+                                            list[documents[index].documentID] =
+                                                'true' as dynamic;
                                           });
                                         },
                                       ),
@@ -193,7 +195,6 @@ class _ClubListState extends State<ClubList> {
                                                 addSubscribe(documents[index]
                                                     .documentID);
                                                 setState(() {
-                                                  //fetchSubscribeList();
                                                   list[documents[index]
                                                           .documentID] =
                                                       'true' as dynamic;

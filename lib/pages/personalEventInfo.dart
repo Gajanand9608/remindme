@@ -52,19 +52,19 @@ class PersonalEventInfo extends StatelessWidget {
                   children: [
                     Text(
                       'Event: ${data['Event']}',
+                     
                       style: TextStyle(
                           fontSize: 40.0, fontWeight: FontWeight.bold),
                     ),
                     SizedBox(
                       height: 5.0,
                     ),
-                   
-                     Text(
+                    Text(
                       'Description: ${data['Description']}',
                       style: TextStyle(
                           fontSize: 25.0, fontWeight: FontWeight.w400),
                     ),
-                     Text(
+                    Text(
                       'Date: ${data['Date']}',
                       style: TextStyle(
                           fontSize: 25.0, fontWeight: FontWeight.w400),
@@ -74,12 +74,11 @@ class PersonalEventInfo extends StatelessWidget {
                       style: TextStyle(
                           fontSize: 25.0, fontWeight: FontWeight.w400),
                     ),
-                     Text(
+                    Text(
                       'At: ${data['Venue']}',
                       style: TextStyle(
                           fontSize: 25.0, fontWeight: FontWeight.w400),
                     ),
-                    
                   ],
                 ),
               ),
