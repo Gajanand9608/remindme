@@ -3,7 +3,7 @@
 [![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat&logo=dart&link=https://github.com/Gajanand9608)](https://github.com/Gajanand9608)
 [![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat&logo=flutter&link=https://github.com/Gajanand9608)](https://github.com/Gajanand9608)
 
-**Remind is a complete Club-Management System made with Flutter**
+**Remind Me is a complete Club-Management System made with Flutter**
 ## Features
 * Dual Profile Sign in setup. <br>
   * Club<br>
