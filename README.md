@@ -1,9 +1,9 @@
 # Remind Me
 
-[![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat&logo=dart]
-[![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat&logo=flutter]
+[![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat&logo=dart&link=https://github.com/Gajanand9608)](https://github.com/Gajanand9608)
+[![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat&logo=flutter&link=https://github.com/Gajanand9608)](https://github.com/Gajanand9608)
 
-**Remind Me is a complete Club-Management System made with Flutter**
+**Remind is a complete Club-Management System made with Flutter**
 ## Features
 * Dual Profile Sign in setup. <br>
   * Club<br>
@@ -22,8 +22,8 @@
 ![Screenshot2](https://github.com/Gajanand9608/remindme/tree/master/screenshots/Screenshot_20210126-210450.jpg) &nbsp; 
 ![Screenshot3](https://github.com/Gajanand9608/remindme/tree/master/screenshots/Screenshot_20210126-210457.jpg)<br>
 ![Screenshot4](https://github.com/Gajanand9608/remindme/tree/master/screenshots/Screenshot_20210126-210713.jpg) &nbsp; 
-![Screenshot5](https://github.com/Gajanand9608/remindme/tree/master/screenshots/Screenshot_20210126-210504.jpg) &nbsp; 
+![Screenshot5](https://github.com/Gajanand9608/remindme/tree/master/screenshots/Screenshot_20210126-210504.jpg) &nbsp;
 ![Screenshot6](https://github.com/Gajanand9608/remindme/tree/master/screenshots/Screenshot_20210126-210705.jpg)<br>
-![Screenshot7](https://github.com/Gajanand9608/remindme/tree/master/screenshots/Screenshot_20210126-210107.jpg) &nbsp; 
+![Screenshot7](https://github.com/Gajanand9608/remindme/tree/master/screenshots/Screenshot_20210126-210107.jpg) &nbsp;
 ![Screenshot8](https://github.com/Gajanand9608/remindme/tree/master/screenshots/Screenshot_20210126-211012.jpg) &nbsp;
-![Screenshot9](https://github.com/Gajanand9608/remindme/tree/master/screenshots/Screenshot_20210126-210753.jpg)<br>
+![Screenshot9](https://github.com/Gajanand9608/remindme/tree/master/screenshotss/Screenshot_20210126-210753.jpg)<br>
